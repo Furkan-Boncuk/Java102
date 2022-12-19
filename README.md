@@ -1,2 +1,2 @@
 # Java102
-My projects on www.patika.dev java102 courses
+The notes or the homework of the java102 courses on www.patika.dev
