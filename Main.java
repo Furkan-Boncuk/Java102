@@ -27,9 +27,9 @@ public class Main {
         File file2 = new File("C:\\__Java_PatikaDev\\Input-Output_Islemleri\\_01_io\\src\\_02\\test\\patika.txt");
         try{
             if(file2.createNewFile()){
-                System.out.println(file2.getName()+" dosyası "+directory.getName()+" dizininin altına oluşturuldu");
+                System.out.println(file2.getName()+" file created under "+directory.getName()+" directory.");
             }else{
-                System.out.println(file2.getName()+" dosyası zaten mevcut !");
+                System.out.println(file2.getName()+" file already exists");
             }
         }catch(IOException e){
             System.out.println(e.getMessage());
