@@ -5,9 +5,8 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        File file = new File("C:\\__Java_PatikaDev\\Input-Output_Islemleri\\_01_io\\src\\_02\\patika.txt");
-
         //create file-----------------------------------------------------------------------------------------------------------
+        File file = new File("C:\\__Java_PatikaDev\\Input-Output_Islemleri\\_01_io\\src\\_02\\patika.txt");
         try{
             if(file.createNewFile()){
                 System.out.println(file.getName()+" file created");
