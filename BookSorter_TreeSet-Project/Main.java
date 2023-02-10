@@ -17,7 +17,7 @@ public class Main {
             System.out.println(i+"."+book.getBookName()+" - "+book.getPage()+" - "+book.getAuthorName()+" - "+book.getReleaseDate());
         }
 
-        TreeSet<Book> bookListByPage = new TreeSet<>(new BookPageComparator());
+        TreeSet<Book> bookListByPage = new TreeSet<>(new BookPageComparator().reversed());
         bookListByPage.addAll(bookListByBookName);
         i = 0;
         System.out.println("\nSorted By Page: ");
@@ -25,6 +25,6 @@ public class Main {
             i++;
             System.out.println(i+"."+book.getBookName()+" - "+book.getPage()+" - "+book.getAuthorName()+" - "+book.getReleaseDate());
         }
-        
+
     }
 }
