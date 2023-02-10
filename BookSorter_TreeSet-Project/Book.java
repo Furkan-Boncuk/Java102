@@ -23,11 +23,7 @@ public class Book implements Comparable<Book>{
     public int compareTo(Book otherBook) {
         return this.bookName.compareTo(otherBook.getBookName());
     }
-
-    public int compareTo(Book book1, Book book2){
-        return Integer.compare(book1.getPage(),book2.getPage());
-    }
-
+    
     //Getters
     public String getBookName() {
         return bookName;
